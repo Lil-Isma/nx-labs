@@ -14,7 +14,7 @@ La solution : créer notre propre générateur (un "wrapper") qui va encapsuler 
 Dans Nx, les générateurs personnalisés vivent dans un plugin local. Créons ce plugin que nous appellerons internal-tools :
 ```bash
 nx add @nx/plugin
-nx g @nx/plugin:generator corporate-lib     
+nx g @nx/plugin:plugin tools/internal-tools 
 ```
 
 ## 2. Initialiser le générateur
